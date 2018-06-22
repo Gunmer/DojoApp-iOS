@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30282E6A75BA531280E07E03 /* Pods_DojoApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64429F904A0CA57BBD463B2C /* Pods_DojoApp.framework */; };
+		389F21E66BC1824917576122 /* Pods_DojoAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71DDCDB621F6BB47B872A9F9 /* Pods_DojoAppTests.framework */; };
+		D43662B820DD465B00F680CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43662B720DD465B00F680CE /* AppDelegate.swift */; };
+		D43662BA20DD465B00F680CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43662B920DD465B00F680CE /* ViewController.swift */; };
+		D43662BD20DD465B00F680CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D43662BB20DD465B00F680CE /* Main.storyboard */; };
+		D43662BF20DD465E00F680CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D43662BE20DD465E00F680CE /* Assets.xcassets */; };
+		D43662C220DD465E00F680CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D43662C020DD465E00F680CE /* LaunchScreen.storyboard */; };
+		D43662CD20DD465E00F680CE /* DojoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43662CC20DD465E00F680CE /* DojoAppTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D43662C920DD465E00F680CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D43662AC20DD465B00F680CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D43662B320DD465B00F680CE;
+			remoteInfo = DojoApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		10E81313809EE546E38782E0 /* Pods-DojoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DojoApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-DojoApp/Pods-DojoApp.release.xcconfig"; sourceTree = "<group>"; };
+		30316B74C9C7D7B616B5CB50 /* Pods-DojoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DojoApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DojoApp/Pods-DojoApp.debug.xcconfig"; sourceTree = "<group>"; };
+		64429F904A0CA57BBD463B2C /* Pods_DojoApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DojoApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		71DDCDB621F6BB47B872A9F9 /* Pods_DojoAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DojoAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		917DAAE7CD382035FC6F4415 /* Pods-DojoAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DojoAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DojoAppTests/Pods-DojoAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A59974D5E1EB0FCC147F8DD3 /* Pods-DojoAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DojoAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DojoAppTests/Pods-DojoAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		D43662B420DD465B00F680CE /* DojoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DojoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D43662B720DD465B00F680CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D43662B920DD465B00F680CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D43662BC20DD465B00F680CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D43662BE20DD465E00F680CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D43662C120DD465E00F680CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D43662C320DD465E00F680CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D43662C820DD465E00F680CE /* DojoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DojoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D43662CC20DD465E00F680CE /* DojoAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DojoAppTests.swift; sourceTree = "<group>"; };
+		D43662CE20DD465E00F680CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D43662B120DD465B00F680CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30282E6A75BA531280E07E03 /* Pods_DojoApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D43662C520DD465E00F680CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				389F21E66BC1824917576122 /* Pods_DojoAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2DD6D3B10619621E1F1D4920 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				30316B74C9C7D7B616B5CB50 /* Pods-DojoApp.debug.xcconfig */,
+				10E81313809EE546E38782E0 /* Pods-DojoApp.release.xcconfig */,
+				917DAAE7CD382035FC6F4415 /* Pods-DojoAppTests.debug.xcconfig */,
+				A59974D5E1EB0FCC147F8DD3 /* Pods-DojoAppTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B6585622FCBE69F0814CB69A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				64429F904A0CA57BBD463B2C /* Pods_DojoApp.framework */,
+				71DDCDB621F6BB47B872A9F9 /* Pods_DojoAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D43662AB20DD465B00F680CE = {
+			isa = PBXGroup;
+			children = (
+				D43662B620DD465B00F680CE /* DojoApp */,
+				D43662CB20DD465E00F680CE /* DojoAppTests */,
+				D43662B520DD465B00F680CE /* Products */,
+				2DD6D3B10619621E1F1D4920 /* Pods */,
+				B6585622FCBE69F0814CB69A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D43662B520DD465B00F680CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D43662B420DD465B00F680CE /* DojoApp.app */,
+				D43662C820DD465E00F680CE /* DojoAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D43662B620DD465B00F680CE /* DojoApp */ = {
+			isa = PBXGroup;
+			children = (
+				D43662B720DD465B00F680CE /* AppDelegate.swift */,
+				D43662B920DD465B00F680CE /* ViewController.swift */,
+				D43662BB20DD465B00F680CE /* Main.storyboard */,
+				D43662BE20DD465E00F680CE /* Assets.xcassets */,
+				D43662C020DD465E00F680CE /* LaunchScreen.storyboard */,
+				D43662C320DD465E00F680CE /* Info.plist */,
+			);
+			path = DojoApp;
+			sourceTree = "<group>";
+		};
+		D43662CB20DD465E00F680CE /* DojoAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				D43662CC20DD465E00F680CE /* DojoAppTests.swift */,
+				D43662CE20DD465E00F680CE /* Info.plist */,
+			);
+			path = DojoAppTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D43662B320DD465B00F680CE /* DojoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D43662D120DD465E00F680CE /* Build configuration list for PBXNativeTarget "DojoApp" */;
+			buildPhases = (
+				C979DB18AF74ECB53F963DCD /* [CP] Check Pods Manifest.lock */,
+				D43662B020DD465B00F680CE /* Sources */,
+				D43662B120DD465B00F680CE /* Frameworks */,
+				D43662B220DD465B00F680CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DojoApp;
+			productName = DojoApp;
+			productReference = D43662B420DD465B00F680CE /* DojoApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D43662C720DD465E00F680CE /* DojoAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D43662D420DD465E00F680CE /* Build configuration list for PBXNativeTarget "DojoAppTests" */;
+			buildPhases = (
+				3C55BA940A838CFD6EA836AF /* [CP] Check Pods Manifest.lock */,
+				D43662C420DD465E00F680CE /* Sources */,
+				D43662C520DD465E00F680CE /* Frameworks */,
+				D43662C620DD465E00F680CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D43662CA20DD465E00F680CE /* PBXTargetDependency */,
+			);
+			name = DojoAppTests;
+			productName = DojoAppTests;
+			productReference = D43662C820DD465E00F680CE /* DojoAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D43662AC20DD465B00F680CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				TargetAttributes = {
+					D43662B320DD465B00F680CE = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					D43662C720DD465E00F680CE = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = D43662B320DD465B00F680CE;
+					};
+				};
+			};
+			buildConfigurationList = D43662AF20DD465B00F680CE /* Build configuration list for PBXProject "DojoApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D43662AB20DD465B00F680CE;
+			productRefGroup = D43662B520DD465B00F680CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D43662B320DD465B00F680CE /* DojoApp */,
+				D43662C720DD465E00F680CE /* DojoAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D43662B220DD465B00F680CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D43662C220DD465E00F680CE /* LaunchScreen.storyboard in Resources */,
+				D43662BF20DD465E00F680CE /* Assets.xcassets in Resources */,
+				D43662BD20DD465B00F680CE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D43662C620DD465E00F680CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C55BA940A838CFD6EA836AF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DojoAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C979DB18AF74ECB53F963DCD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DojoApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D43662B020DD465B00F680CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D43662BA20DD465B00F680CE /* ViewController.swift in Sources */,
+				D43662B820DD465B00F680CE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D43662C420DD465E00F680CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D43662CD20DD465E00F680CE /* DojoAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D43662CA20DD465E00F680CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D43662B320DD465B00F680CE /* DojoApp */;
+			targetProxy = D43662C920DD465E00F680CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D43662BB20DD465B00F680CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D43662BC20DD465B00F680CE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D43662C020DD465E00F680CE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D43662C120DD465E00F680CE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D43662CF20DD465E00F680CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D43662D020DD465E00F680CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D43662D220DD465E00F680CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30316B74C9C7D7B616B5CB50 /* Pods-DojoApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = DojoApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gunmer.DojoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D43662D320DD465E00F680CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10E81313809EE546E38782E0 /* Pods-DojoApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = DojoApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gunmer.DojoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D43662D520DD465E00F680CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 917DAAE7CD382035FC6F4415 /* Pods-DojoAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8ZZEB7QGX4;
+				INFOPLIST_FILE = DojoAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gunmer.DojoAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DojoApp.app/DojoApp";
+			};
+			name = Debug;
+		};
+		D43662D620DD465E00F680CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A59974D5E1EB0FCC147F8DD3 /* Pods-DojoAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8ZZEB7QGX4;
+				INFOPLIST_FILE = DojoAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gunmer.DojoAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DojoApp.app/DojoApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D43662AF20DD465B00F680CE /* Build configuration list for PBXProject "DojoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D43662CF20DD465E00F680CE /* Debug */,
+				D43662D020DD465E00F680CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D43662D120DD465E00F680CE /* Build configuration list for PBXNativeTarget "DojoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D43662D220DD465E00F680CE /* Debug */,
+				D43662D320DD465E00F680CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D43662D420DD465E00F680CE /* Build configuration list for PBXNativeTarget "DojoAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D43662D520DD465E00F680CE /* Debug */,
+				D43662D620DD465E00F680CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D43662AC20DD465B00F680CE /* Project object */;
+}
