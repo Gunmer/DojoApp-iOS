@@ -15,5 +15,10 @@ La manía de Potter está barriendo el país y los padres de adolescentes en tod
 ## Libros
 ![Book covers][Book_Covers]
 
+## Cómo empezar
+1. Clonamos el repo y creamos una rama nueva.
+2. Abrimos el proyecto y dentro podremos ver una clase que pueda contener la informacion necesaria para el problema, la carcasa de la clase encargada de calcular el precio total y su test con el caso de prueba mas sencillo. 
+3. Debemos empeza con hacer pasar el test que ya existe, y luego con *[TDD]* desarrolla el algoritmo para resolver el problema.
+
 [difficulty]: https://img.shields.io/badge/Dificultad-Facil-green.svg
 [Book_Covers]: http://www.hogwartsla.com/news/uploads/covers_all.jpg

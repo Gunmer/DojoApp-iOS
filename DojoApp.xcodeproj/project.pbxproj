@@ -15,6 +15,9 @@
 		D43662BF20DD465E00F680CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D43662BE20DD465E00F680CE /* Assets.xcassets */; };
 		D43662C220DD465E00F680CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D43662C020DD465E00F680CE /* LaunchScreen.storyboard */; };
 		D43662CD20DD465E00F680CE /* DojoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43662CC20DD465E00F680CE /* DojoAppTests.swift */; };
+		D43662DB20DEF64300F680CE /* CashRegister.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43662DA20DEF64300F680CE /* CashRegister.swift */; };
+		D43662DD20DEF6AB00F680CE /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43662DC20DEF6AB00F680CE /* Book.swift */; };
+		D43662E020DF018900F680CE /* CashRegisterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43662DF20DF018900F680CE /* CashRegisterTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		D43662C820DD465E00F680CE /* DojoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DojoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D43662CC20DD465E00F680CE /* DojoAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DojoAppTests.swift; sourceTree = "<group>"; };
 		D43662CE20DD465E00F680CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D43662DA20DEF64300F680CE /* CashRegister.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashRegister.swift; sourceTree = "<group>"; };
+		D43662DC20DEF6AB00F680CE /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		D43662DF20DF018900F680CE /* CashRegisterTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashRegisterTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +115,7 @@
 		D43662B620DD465B00F680CE /* DojoApp */ = {
 			isa = PBXGroup;
 			children = (
+				D43662D920DEF29400F680CE /* KataPotter */,
 				D43662B720DD465B00F680CE /* AppDelegate.swift */,
 				D43662B920DD465B00F680CE /* ViewController.swift */,
 				D43662BB20DD465B00F680CE /* Main.storyboard */,
@@ -122,10 +129,28 @@
 		D43662CB20DD465E00F680CE /* DojoAppTests */ = {
 			isa = PBXGroup;
 			children = (
+				D43662DE20DF013A00F680CE /* KataPotter */,
 				D43662CC20DD465E00F680CE /* DojoAppTests.swift */,
 				D43662CE20DD465E00F680CE /* Info.plist */,
 			);
 			path = DojoAppTests;
+			sourceTree = "<group>";
+		};
+		D43662D920DEF29400F680CE /* KataPotter */ = {
+			isa = PBXGroup;
+			children = (
+				D43662DA20DEF64300F680CE /* CashRegister.swift */,
+				D43662DC20DEF6AB00F680CE /* Book.swift */,
+			);
+			path = KataPotter;
+			sourceTree = "<group>";
+		};
+		D43662DE20DF013A00F680CE /* KataPotter */ = {
+			isa = PBXGroup;
+			children = (
+				D43662DF20DF018900F680CE /* CashRegisterTest.swift */,
+			);
+			path = KataPotter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,6 +294,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D43662DD20DEF6AB00F680CE /* Book.swift in Sources */,
+				D43662DB20DEF64300F680CE /* CashRegister.swift in Sources */,
 				D43662BA20DD465B00F680CE /* ViewController.swift in Sources */,
 				D43662B820DD465B00F680CE /* AppDelegate.swift in Sources */,
 			);
@@ -279,6 +306,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D43662CD20DD465E00F680CE /* DojoAppTests.swift in Sources */,
+				D43662E020DF018900F680CE /* CashRegisterTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
